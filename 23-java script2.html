@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="xq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 核心语法练习2</title>
+    <script>
+        // 类和对象
+        // 1. 定义一个教师类
+        class Teacher {
+            // 构造函数
+            constructor(name, age, school, subject) {
+                this.name = name;
+                this.age = age;
+                this.school = school;
+                this.subject = subject;
+            }
+            // 方法
+            learn(className = "一年级一班") {
+                console.log(`${this.name}老师正在给${className}上${this.subject}课`);
+            }
+            gradeExams() {
+                console.log(`${this.name} 老师正在批改试卷`);
+            }
+        }
+        // 2. 创建教师对象
+        let MrMa = new Teacher("马", 28, "实验小学", "语文");
+        MrMa.learn("三年级二班");
+        MrMa.gradeExams();
+
+        class Professor extends Teacher {
+            constructor(name, age, school, subject, researchField, papersPublished) {
+                super(name, age, school, subject);
+                this.researchField = researchField;
+                this.papersPublished = papersPublished;
+            }
+            
+            supervise(studentName) {
+                console.log(`${this.name}教授正在指导${studentName}做研究论文`);
+                console.log(super.gradeExams());
+            }
+        }
+
+        let profZhou = new Professor("周", 35, "清华大学", "新闻传播学院", "新闻学", 12);
+        profZhou.supervise("李明");
+
+        // 回调函数，函数作为参数传递给另一个函数
+        console.log("准备上课铃...");
+
+        setTimeout(function () { console.log("下课铃响了") }, 1000);
+
+        console.log("上课铃响了");
+    </script>
+</head>
+
+<body>
+    <h1 id="demo" onclick="alert('同学们好！')">教室信息管理系统</h1>
+    <div>
+        <p id="anotherp">点击查看教师详情</p>
+    </div>
+
+    <script>
+        let myh1 = document.getElementById("demo");
+        console.log(myh1);
+        // 1. 改变元素的内容
+        myh1.innerHTML = "欢迎使用教师信息管理平台";
+        // 2. 改变元素的样式
+        myh1.style.color = "#aa0000";
+
+        let myp = document.getElementById("anotherp");
+        myp.onclick = function () {
+            alert("马老师 - 语文 - 28岁 - 实验小学");
+        }
+
+        window.onload = function () {
+            alert("系统初始化完成");
+        }
+    </script>
+</body>
+</html>
