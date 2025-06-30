@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript 异步编程练习",
+    "description": "包含setTimeout、Promise和async/await的异步编程练习",
+    "image": "./images/宇宙大爆炸.webp",
+    "link": "async/23-async.html",
+    "tags": ["JavaScript", "异步编程"]
+  },
+  {
+    "id": 2,
+    "title": "CSS 基础样式练习",
+    "description": "CSS选择器与样式表引入方式练习",
+    "image": "./images/背景图.jpg",
+    "link": "css/23-css-1.html",
+    "tags": ["CSS", "样式基础"]
+  },
+  {
+    "id": 3,
+    "title": "JavaScript 核心语法",
+    "description": "变量、函数与控制流练习",
+    "image": "./images/表头图片.jpg",
+    "link": "javascript/23-java script.html",
+    "tags": ["JavaScript", "核心语法"]
+  }
+]

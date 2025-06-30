@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "智能问答服务演示",
+    "description": "展示第三方服务集成技术，通过iframe安全嵌入智能问答平台，体验现代Web应用的服务整合能力。",
+    "link": "/practice/embed-demo",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["服务集成", "iframe", "API"]
+  },
+  {
+    "id": 2,
+    "title": "React组件开发实践",
+    "description": "通过实际组件案例学习React开发基础，包含组件化思想、状态管理和现代前端架构设计。",
+    "link": "/practice/my-app",
+    "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["React", "组件化", "前端架构"]
+  },
+  {
+    "id": 3,
+    "title": "CSS样式表技术深度解析",
+    "description": "系统学习CSS的三种引入方式：外部样式表、内部样式表和内嵌样式，掌握样式优先级原理。",
+    "link": "/practice/03-css-01",
+    "imageUrl": "https://images.unsplash.com/photo-1618477371303-b2a56f422d9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "样式表", "优先级"]
+  },
+  {
+    "id": 4,
+    "title": "地球生命之源探索",
+    "description": "从宇宙大爆炸到生命起源的完整叙述，展示现代CSS布局技术和响应式设计的综合应用。",
+    "link": "/practice/03-css-02",
+    "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "响应式", "科普"]
+  },
+  {
+    "id": 5,
+    "title": "CSS核心概念精讲",
+    "description": "深入理解盒模型、Flexbox布局和过渡动画，掌握现代CSS开发的核心技术要点。",
+    "link": "/practice/04-css-01",
+    "imageUrl": "https://images.unsplash.com/photo-1586282391129-76a6df230234?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "盒模型", "Flexbox"]
+  },
+  {
+    "id": 6,
+    "title": "CSS定位系统详解",
+    "description": "通过交互式演示深入学习relative、absolute和fixed定位的区别与应用场景。",
+    "link": "/practice/04-css-02",
+    "imageUrl": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "定位", "布局"]
+  },
+  {
+    "id": 7,
+    "title": "相对定位深度实践",
+    "description": "专注于relative定位的特性研究，理解文档流、偏移效果和定位上下文的核心概念。",
+    "link": "/practice/04-css-02-relative",
+    "imageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["CSS", "相对定位", "文档流"]
+  },
+  {
+    "id": 8,
+    "title": "JavaScript语言基础全景",
+    "description": "系统掌握JavaScript核心语法：变量类型、流程控制、函数定义，构建扎实的编程基础。",
+    "link": "/practice/05-news01",
+    "imageUrl": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["JavaScript", "语法基础", "编程思维"]
+  },
+  {
+    "id": 9,
+    "title": "面向对象编程实战",
+    "description": "通过Teacher和Professor类的继承演示，学习JavaScript面向对象编程和DOM交互技术。",
+    "link": "/practice/06-news01",
+    "imageUrl": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["面向对象", "继承", "DOM操作"]
+  },
+  {
+    "id": 10,
+    "title": "汽车管理系统开发",
+    "description": "基于TypeScript类与继承的汽车管理系统，演示回调函数、异步操作和事件绑定的综合应用。",
+    "link": "/practice/06-news02",
+    "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["TypeScript", "类设计", "事件处理"]
+  },
+  {
+    "id": 11,
+    "title": "JavaScript异步编程进阶",
+    "description": "掌握Promise、async/await语法和GitHub API调用，体验现代异步编程的完整开发流程。",
+    "link": "/practice/07-async-01",
+    "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["异步编程", "Promise", "API调用"]
+  },
+  {
+    "id": 12,
+    "title": "异步编程实验室",
+    "description": "专注于fetch API和异步数据获取的实践项目，学习错误处理和实时数据展示技术。",
+    "link": "/practice/07-async-02",
+    "imageUrl": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["Fetch API", "数据获取", "错误处理"]
+  },
+  {
+    "id": 13,
+    "title": "植物世界探索之旅",
+    "description": "沉浸式植物科普体验，集成表单、表格、多媒体等丰富HTML元素，展示完整的前端开发技能。",
+    "link": "/practice/index",
+    "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["HTML综合", "表单设计", "多媒体"]
+  }
+] 
